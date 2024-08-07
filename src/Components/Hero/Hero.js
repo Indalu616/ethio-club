@@ -17,7 +17,9 @@ function Hero() {
           <p data-aos="zoom-in">
             Discover the vibrant culture, rich language, and exquisite art of
             Ethiopia with EthioClub. Join us in celebrating and preserving our
-            heritage through engaging events and activities.
+            heritage through engaging events and activities. Join EthioClub and
+            be a part of a dynamic community that celebrates the heritage of
+            Ethiopia.
           </p>
         </div>
         <div className="right-hero">
