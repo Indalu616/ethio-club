@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ethio-club/static/css/main.41c84443.css",
-    "main.js": "/ethio-club/static/js/main.6aebffda.js",
+    "main.css": "/ethio-club/static/css/main.7837ab0c.css",
+    "main.js": "/ethio-club/static/js/main.dcd131ff.js",
     "static/media/wollo.png": "/ethio-club/static/media/wollo.57f94b8c6210258f6311.png",
     "static/media/about-bg.jpeg": "/ethio-club/static/media/about-bg.bfdea74ba06002244ac0.jpeg",
     "static/media/discussion-removebg-preview.png": "/ethio-club/static/media/discussion-removebg-preview.89a4667840c6f279b047.png",
@@ -23,11 +23,11 @@
     "static/media/revicons.ttf": "/ethio-club/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/ethio-club/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ethio-club/index.html",
-    "main.41c84443.css.map": "/ethio-club/static/css/main.41c84443.css.map",
-    "main.6aebffda.js.map": "/ethio-club/static/js/main.6aebffda.js.map"
+    "main.7837ab0c.css.map": "/ethio-club/static/css/main.7837ab0c.css.map",
+    "main.dcd131ff.js.map": "/ethio-club/static/js/main.dcd131ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.41c84443.css",
-    "static/js/main.6aebffda.js"
+    "static/css/main.7837ab0c.css",
+    "static/js/main.dcd131ff.js"
   ]
 }
