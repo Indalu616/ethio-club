@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Blogs.css";
 import { Posts } from "../BlogPostLists/Posts";
 import AOS from "aos";
+import { Link } from "react-router-dom";
 function Blogs() {
   useEffect(() => {
     AOS.init({ duration: 3000 });
@@ -18,9 +19,11 @@ function Blogs() {
                 {item.month} {item.date}, {item.year} Ethio-club 7 Comments
               </p>
               <h3>{item.title}</h3>
+
               <p className="blog-desc">{item.desc}</p>
+
               <p className="read-more">
-                <a href="#">Read more</a>
+                <Link to="/ethio-club/blogs">Read more</Link>
                 <span className="arrow">
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>

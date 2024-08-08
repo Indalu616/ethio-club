@@ -1,0 +1,109 @@
+.blog-detail-page {
+  width: 100%;
+  padding-top: 150px;
+  background: url("../../images/blog-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blog-detail-container {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.blog-detail-container img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  height: 500px;
+}
+.blog-detail-container .release-date {
+  color: red;
+  font-weight: 700;
+  text-align: center;
+}
+.blog-detail-container p {
+  color: white;
+}
+.blog-detail-container .title {
+  color: cadetblue;
+  color: white;
+}
+.comment-section {
+  margin-top: 40px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.comment-section h3 {
+  color: red;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.comment-section p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+.comment-section textarea {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 20px;
+  font-size: 18px;
+  background-color: beige;
+}
+.comment-section .input-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.comment-section .input-group input {
+  width: 500px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: beige;
+}
+.comment-section button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(61, 61, 233);
+  color: white;
+}
+/* media query */
+@media (max-width: 768px) {
+  .comment-section.input-group input {
+    width: 100%;
+    padding: 8px;
+  }
+  .comment-section textarea {
+    height: 100px;
+  }
+  .comment-section {
+    width: 100%;
+  }
+  .blog-detail-container {
+    padding: 30px;
+  }
+}

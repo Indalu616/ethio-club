@@ -1,21 +1,14 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/Hero/Hero";
-import About from "./Components/About/About";
-import Events from "./Components/Events/Events";
-import Gallery from "./Components/Gallery/Gallery";
-import Footer from "./Components/Footer/Footer";
-import Blogs from "./Components/Blogs/Blogs";
+import HomePage from "./Components/HomePage/HomePage";
+import { Route, Routes } from "react-router-dom";
+import BlogDetailPage from "./Components/BlogDetailPage/BlogDetailPage";
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Events />
-      <Gallery />
-      <Blogs />
-      <Footer />
+      <Routes>
+        <Route path="/ethio-club" element={<HomePage />}></Route>
+        <Route path="/ethio-club/blogs" element={<BlogDetailPage />}></Route>
+      </Routes>
     </div>
   );
 }
