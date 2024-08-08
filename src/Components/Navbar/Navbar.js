@@ -40,7 +40,7 @@ function Navbar() {
               Gallery
             </AnchorLink>
           </li>
-          <li><AnchorLink href="#footer" className="anchor-link">Socials</AnchorLink></li>
+          <li><AnchorLink href="#blogs" className="anchor-link" offset="100">Blogs</AnchorLink></li>
         </ul>
         <i class="fa-solid fa-bars" onClick={toggleMenu}></i>
       </div>

@@ -1,0 +1,100 @@
+.blogs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.blogs h2 {
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: cadetblue;
+}
+.blogs-container {
+  width: 100%;
+  padding: 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.blogs-container .blogger {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+.blogger img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 10px;
+}
+.blogger p.release-date {
+  color: red;
+  font-weight: 700;
+  text-align: center;
+}
+.blogger p.blog-desc {
+  color: #333333;
+  font-weight: 500;
+}
+.blogger h3 {
+  color: cadetblue;
+}
+.blogger p a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.35s;
+  color: white;
+}
+.blogger p a:hover {
+  color: rgb(211, 211, 224);
+}
+.blogger p a:hover .blogger p span .arrow {
+  margin-left: 10px;
+}
+.blogger p .arrow {
+  margin-left: 5px;
+  color: white;
+  transition: all 0.35s;
+}
+.read-more {
+  background: linear-gradient(45deg, #d4145a, #fbb03b);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.65s;
+}
+.read-more:hover {
+  width: 150px;
+}
+.read-more:hover .arrow {
+  margin-left: 10px;
+  color: rgb(211, 211, 224);
+}
+
+/* !media query */
+
+@media (max-width: 1077px) {
+  .blogs-container .blogger {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .blogs-container .blogger {
+    width: 100%;
+  }
+}

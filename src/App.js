@@ -5,6 +5,7 @@ import About from "./Components/About/About";
 import Events from "./Components/Events/Events";
 import Gallery from "./Components/Gallery/Gallery";
 import Footer from "./Components/Footer/Footer";
+import Blogs from "./Components/Blogs/Blogs";
 function App() {
   return (
     <div>
@@ -13,7 +14,8 @@ function App() {
       <About />
       <Events />
       <Gallery />
-      <Footer/>
+      <Blogs />
+      <Footer />
     </div>
   );
 }
