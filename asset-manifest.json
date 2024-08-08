@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/ethio-club/static/css/main.7837ab0c.css",
-    "main.js": "/ethio-club/static/js/main.dcd131ff.js",
+    "main.css": "/ethio-club/static/css/main.b75f472b.css",
+    "main.js": "/ethio-club/static/js/main.fb16889a.js",
     "static/media/wollo.png": "/ethio-club/static/media/wollo.57f94b8c6210258f6311.png",
     "static/media/about-bg.jpeg": "/ethio-club/static/media/about-bg.bfdea74ba06002244ac0.jpeg",
     "static/media/discussion-removebg-preview.png": "/ethio-club/static/media/discussion-removebg-preview.89a4667840c6f279b047.png",
     "static/media/gallery-5.jpg": "/ethio-club/static/media/gallery-5.3389a14b9328a01690f3.jpg",
     "static/media/culture-workshop.jpg": "/ethio-club/static/media/culture-workshop.663d0577640803add958.jpg",
+    "static/media/blog-bg.jpeg": "/ethio-club/static/media/blog-bg.5ef2c427c19dcbe70c16.jpeg",
     "static/media/coming-soon-1.gif": "/ethio-club/static/media/coming-soon-1.f7b3eee13928af60ebb1.gif",
     "static/media/lang.jpg": "/ethio-club/static/media/lang.3bb98b722acc09e82049.jpg",
     "static/media/cuisine.jpg": "/ethio-club/static/media/cuisine.897f42feda65f1217719.jpg",
@@ -23,11 +24,11 @@
     "static/media/revicons.ttf": "/ethio-club/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/ethio-club/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ethio-club/index.html",
-    "main.7837ab0c.css.map": "/ethio-club/static/css/main.7837ab0c.css.map",
-    "main.dcd131ff.js.map": "/ethio-club/static/js/main.dcd131ff.js.map"
+    "main.b75f472b.css.map": "/ethio-club/static/css/main.b75f472b.css.map",
+    "main.fb16889a.js.map": "/ethio-club/static/js/main.fb16889a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7837ab0c.css",
-    "static/js/main.dcd131ff.js"
+    "static/css/main.b75f472b.css",
+    "static/js/main.fb16889a.js"
   ]
 }
