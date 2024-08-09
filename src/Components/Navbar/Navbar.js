@@ -25,22 +25,26 @@ function Navbar() {
         </div>
         <ul ref={menuRef} className="toggle">
           <li>
-            <AnchorLink href="#home" offset="100"  className="anchor-link">
+            <AnchorLink href="#home" offset="100" className="anchor-link">
               Home
             </AnchorLink>
           </li>
           <li>
-            <AnchorLink href="#event" offset="100"  className="anchor-link">
+            <AnchorLink href="#event" offset="100" className="anchor-link">
               Events
             </AnchorLink>
           </li>
+
           <li>
-         
+            <AnchorLink href="#blogs" className="anchor-link" offset="100">
+              Blogs
+            </AnchorLink>
+          </li>
+          <li>
             <AnchorLink href="#gallery" offset="100" className="anchor-link">
               Gallery
             </AnchorLink>
           </li>
-          <li><AnchorLink href="#blogs" className="anchor-link" offset="100">Blogs</AnchorLink></li>
         </ul>
         <i class="fa-solid fa-bars" onClick={toggleMenu}></i>
       </div>

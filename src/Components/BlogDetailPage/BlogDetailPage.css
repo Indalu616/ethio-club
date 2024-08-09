@@ -1,10 +1,10 @@
 .blog-detail-page {
   width: 100%;
   padding-top: 150px;
-  background: url("../../images/blog-bg.jpeg");
+  /* background: url("../../images/blog-bg.jpeg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .blog-detail-container {
   width: 100%;
@@ -26,11 +26,11 @@
   text-align: center;
 }
 .blog-detail-container p {
-  color: white;
+  color: #344767;
 }
 .blog-detail-container .title {
-  color: cadetblue;
-  color: white;
+  /* color: cadetblue; */
+  color: #344767;
 }
 .comment-section {
   margin-top: 40px;
@@ -51,7 +51,7 @@
 .comment-section p {
   font-size: 16px;
   margin-bottom: 30px;
-  color: white;
+  color: #344767;
   text-align: center;
 }
 .comment-section textarea {

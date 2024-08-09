@@ -14,8 +14,8 @@ function HomePage() {
       <Hero />
       <About />
       <Events />
-      <Gallery />
       <Blogs />
+      <Gallery />
       <Footer />
     </>
   );

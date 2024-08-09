@@ -30,7 +30,7 @@ function Events() {
     },
   };
   return (
-    <div className="events" id="event" data-aos="zoom-in">
+    <div className="events" id="event">
       <h2>Upcoming Events</h2>
       <Carousel
         responsive={responsive}
@@ -41,7 +41,7 @@ function Events() {
       >
         {eventLists?.map((item, index) => {
           return (
-            <div className="event-item" key={index}>
+            <div className="event-item" key={index} data-aos="zoom-in">
               <div className="event-header">
                 <span className="date">
                   {item.date} {item.month} {item.year}

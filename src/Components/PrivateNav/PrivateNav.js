@@ -8,7 +8,7 @@ function PrivateNav() {
     menuRef.current.classList.toggle("toggle");
   }
   return (
-    <nav>
+    <nav className="private-nav">
       <div className="nav-container">
         <div className="logo">
           <h3>

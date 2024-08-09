@@ -4,14 +4,18 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   padding-bottom: 40px;
+  background: url("../../images/bg-2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .events h2 {
   font-size: 30px;
   font-family: "Poppins";
   font-weight: 700;
-  color: cadetblue;
+  color:white;
   margin-top: 40px;
 }
 .carousel {
@@ -24,6 +28,7 @@
   border-radius: 10px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  background-color: white;
 }
 .carousel .event-item img {
   width: 100%;

@@ -4,12 +4,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #344767;
+  margin-bottom: 40px;
 }
 .blogs h2 {
   font-size: 30px;
   font-family: "Poppins";
   font-weight: 700;
-  color: cadetblue;
+  color: white;
+  margin-top: 50px;
 }
 .blogs-container {
   width: 100%;
@@ -30,6 +33,7 @@
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 10px;
+  background-color: white;
 }
 .blogger img {
   width: 100%;
