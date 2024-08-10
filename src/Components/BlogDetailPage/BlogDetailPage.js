@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./BlogDetailPage.css";
 import PrivateNav from "../PrivateNav/PrivateNav";
 import dance from "../../images/dance.jpg";
+import wave from "../../images/hero-wave-svg.svg";
 import AOS from "aos";
 function BlogDetailPage() {
   useEffect(() => {
@@ -11,6 +12,11 @@ function BlogDetailPage() {
     <>
       <PrivateNav />
       <div className="blog-detail-page">
+        <div className="blog-detail-header">
+          <h2>Read our Blogs</h2>
+          <img src={wave} id="wave"></img>
+        </div>
+
         <div className="blog-detail-container" data-aos="zoom-in">
           <img src={dance} alt="post-image"></img>
           <p className="release-date">Aug 8, 2024 Ethio-club 7 Comments</p>

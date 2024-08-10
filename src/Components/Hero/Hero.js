@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Hero.css";
 import place from "../../images/wollo.png";
+import wave from "../../images/hero-wave-svg.svg";
 function Hero() {
   useEffect(() => {
     AOS.init({
@@ -26,6 +27,7 @@ function Hero() {
           <img src={place} alt="place-in-ethiopia" data-aos="zoom-in"></img>
         </div>
       </div>
+      <img src={wave} id="wave"></img>
     </div>
   );
 }

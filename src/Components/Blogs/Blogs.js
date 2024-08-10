@@ -8,7 +8,7 @@ function Blogs() {
     AOS.init({ duration: 3000 });
   });
   return (
-    <div className="blogs" id="blogs" data-aos="fade-up">
+    <div className="blogs" id="blogs">
       <h2>Blog Posts</h2>
       <div className="blogs-container">
         {Posts?.map((item, index) => {

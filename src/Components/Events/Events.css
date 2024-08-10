@@ -60,7 +60,7 @@
   height: 30px;
   aspect-ratio: 3/2;
   object-fit: contain;
-  mix-blend-mode: color-burn;
+  /* mix-blend-mode: color-burn; */
 }
 .carousel .event-item h3 {
   font-size: 20px;
